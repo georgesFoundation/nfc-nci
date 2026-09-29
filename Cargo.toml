@@ -2,9 +2,13 @@
 categories = ["embedded", "no-std"]
 description = "Host side of the NFC Forum NCI 2.x protocol on embedded-hal: packets, RF types and the I2C link, shared by NFC controller drivers"
 edition = "2021"
+exclude = [".github"]
 keywords = ["no-std", "nfc", "nci", "embedded-hal"]
 license = "MIT OR Apache-2.0"
 name = "nfc-nci"
+repository = "https://github.com/georgesFoundation/nfc-nci"
+# MSRV-aware dependency resolution, so the 1.87 CI job resolves versions it can build.
+resolver = "3"
 rust-version = "1.87.0"
 version = "0.1.0"
 
