@@ -1,5 +1,11 @@
 # nfc-nci
 
+[![crates.io](https://img.shields.io/crates/v/nfc-nci.svg)](https://crates.io/crates/nfc-nci)
+[![docs.rs](https://docs.rs/nfc-nci/badge.svg)](https://docs.rs/nfc-nci)
+[![CI](https://github.com/georgesFoundation/nfc-nci/actions/workflows/ci.yml/badge.svg)](https://github.com/georgesFoundation/nfc-nci/actions/workflows/ci.yml)
+[![MSRV](https://img.shields.io/crates/msrv/nfc-nci.svg)](https://github.com/georgesFoundation/nfc-nci/blob/main/Cargo.toml)
+[![License](https://img.shields.io/crates/l/nfc-nci.svg)](#license)
+
 The host side of the NFC Forum NFC Controller Interface (NCI 2.x) for `no_std` drivers built on
 `embedded-hal` 1.0: everything that does not depend on which NFC controller sits at the other end.
 
